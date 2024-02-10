@@ -6,7 +6,7 @@ import App from './App'
 import 'gis-web-ui/dist/style.css'
 import { GisWebUi } from 'gis-web-ui'
 
-import DevComponents from 'packages'
+import DevComponents from '@pkg'
 
 Vue.use(DevComponents)
 Vue.use(GisWebUi)

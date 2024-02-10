@@ -6,6 +6,7 @@
 
 <script>
 export default {
+  name: 'WebGisHome',
   mounted() {
     const panelData = [
       {

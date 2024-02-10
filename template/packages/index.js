@@ -7,7 +7,7 @@ import Vue from 'vue'
 // import GisDraw from './components/GisDraw/index.vue'
 
 const components = [
-    // GisDraw
+  // GisDraw
 ]
 
 components.forEach(component => {
