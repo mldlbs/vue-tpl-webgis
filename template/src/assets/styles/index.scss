@@ -1,0 +1,20 @@
+@import 'mixins/mixins';
+@import 'common/var';
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@include b(wrapper) {
+  overflow: hidden;
+  display: flex;
+  flex-flow: column nowrap;
+  height: 100%;
+
+  @include clearfix;
+  @include clearArrow;
+}
+
+@include b(relative) {
+  @include relative;
+}

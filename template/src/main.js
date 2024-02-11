@@ -3,6 +3,9 @@ import router from './router'
 
 import App from './App'
 
+import '@/assets/styles/index.scss'
+import '@/assets/icons' // icon
+
 import 'gis-web-ui/dist/style.css'
 import { GisWebUi } from 'gis-web-ui'
 

@@ -1,0 +1,1 @@
+(context => context.keys().map(context))(require.context('@/assets/icons/svg', false, /\.svg$/))
