@@ -4,10 +4,10 @@
  */
 import Vue from 'vue'
 
-// import GisDraw from './components/GisDraw/index.vue'
+import GisTest from './components/GisTest/index.vue'
 
 const components = [
-  // GisDraw
+  GisTest
 ]
 
 components.forEach(component => {
