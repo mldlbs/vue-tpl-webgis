@@ -31,7 +31,7 @@ export default {
         }
       }
     ]
-    this.$GWUI.GisDialog.createFromJson(panelData)
+    this.$Panel.createFromJson(panelData)
   }
 }
 </script>
