@@ -14,7 +14,7 @@ import DevComponents from '@pkg'
 Vue.use(DevComponents)
 Vue.use(GisWebUi)
 
-Vue.prototype.$Panel = GisWebUi.GisDialog
+// Vue.prototype.$Panel = GisWebUi.GisDialog
 
 new Vue({
   el: '#app',
